@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this template, please cite it as below."
+type: software
+title: "NETS Data Curation"
+authors:
+  - family-names: Clary
+    given-names: Will
+    affiliation: "National Neighborhood Data Archive, University of Michigan"
+license: MIT
+repository-code: "https://github.com/The-National-Neighborhood-Data-Archive/NETS-Data-Curation"
+url: "https://nanda.isr.umich.edu/"
+keywords:
+  - Stata
+  - NETS
+  - data curation
+  - neighborhood data
+  - NaNDA

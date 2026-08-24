@@ -3,11 +3,28 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22018941.svg)](https://doi.org/10.5281/zenodo.22018941)
 
 Stata template code for generating neighborhood-level business counts from the
-[National Establishment Time Series (NETS)](https://youreconomy.org/nets/) database,
+National Establishment Time Series (NETS) database,
 by SIC industry category and geography (census tract or ZCTA).
 
 This code supports data curation work for the
 [National Neighborhood Data Archive (NaNDA)](https://nanda.isr.umich.edu/).
+
+## About the NETS database
+
+The National Establishment Time Series (NETS) is a proprietary longitudinal
+database of United States business establishments, produced by Walls &
+Associates from archival Dun & Bradstreet (D&B) establishment data. It
+provides annual records on establishment location, industry (SIC
+classification), and employment from 1990 onward; the vintage used for NaNDA
+datasets runs through 2022.
+
+NETS is licensed commercially and has **no public website**. The canonical
+technical reference is Walls (2007), [National Establishment Time-Series
+Database: Data Overview](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1022962)
+(SSRN); an independent assessment is Barnatchez, Crane & Decker (2017),
+[An Assessment of the NETS Database](https://www.federalreserve.gov/econres/feds/files/2017110pap.pdf)
+(Federal Reserve FEDS working paper). Access inquiries go to Walls &
+Associates directly; there is no self-service portal.
 
 ## What the template does
 
@@ -60,6 +77,35 @@ template header: `(comma)`, `(and)`, `(lp)`, and `(rp)`.
 
 Based on a template by Philippa Clarke (pjclarke); adapted and maintained by
 Will Clary.
+
+
+## NaNDA datasets built from NETS
+
+The following published NaNDA datasets are derived from NETS. Each provides
+counts and densities of the named establishment type per census tract and/or
+ZCTA per year. Full titles follow the pattern "National Neighborhood Data
+Archive (NaNDA): [name], United States".
+
+| Dataset | DOI | Description |
+|---|---|---|
+| Arts, Entertainment, and Leisure Establishments, 1990-2022 | [10.3886/E209163](https://doi.org/10.3886/E209163) | Theaters, museums, galleries, amusement venues, and similar establishments |
+| Civic, Social, and Religious Organizations, 1990-2022 | [10.3886/E207966](https://doi.org/10.3886/E207966) | Churches, mosques, synagogues, veterans/youth organizations, and civic groups |
+| Dollar Stores, 1990-2022 | [10.3886/E209324](https://doi.org/10.3886/E209324) | Dollar and variety stores |
+| Eating and Drinking Places, 1990-2022 | [10.3886/E208751](https://doi.org/10.3886/E208751) | Restaurants, bars, coffee shops, and fast food |
+| Education and Training Services by Census Tract, 2003-2017 | [10.3886/E127681](https://doi.org/10.3886/E127681) | Schools, colleges, and specialized instruction services (earlier series) |
+| Education and Training Services by ZCTA, 2003-2017 | [10.3886/E127682](https://doi.org/10.3886/E127682) | Schools, colleges, and specialized instruction services (earlier series) |
+| Essential Businesses, 2020 | [10.3886/ICPSR301419.v1](https://doi.org/10.3886/ICPSR301419.v1) | Businesses and employees deemed essential under CISA COVID-19 guidance |
+| Grocery and Food Stores, 1990-2022 | [10.3886/E209313](https://doi.org/10.3886/E209313) | Grocery stores, supermarkets, and specialty food stores |
+| Healthcare Services, 1990-2022 | [10.3886/E209050](https://doi.org/10.3886/E209050) | Physician offices, dentists, clinics, and other health care establishments |
+| Law Enforcement, 1990-2022 | [10.3886/E208684](https://doi.org/10.3886/E208684) | Police and other law enforcement establishments |
+| Liquor, Tobacco, Cannabis, Vape, and Convenience Stores, 1990-2022 | [10.3886/E208907](https://doi.org/10.3886/E208907) | Outlets selling age-restricted products and convenience goods |
+| Ophthalmologists, 1990-2021 | [10.3886/E222263](https://doi.org/10.3886/E222263) | Ophthalmology practices |
+| Personal Care Services and Laundry, 1990-2022 | [10.3886/E208906](https://doi.org/10.3886/E208906) | Salons, barbers, laundromats, and dry cleaners |
+| Post Offices and Banks, 1990-2021 | [10.3886/E208366](https://doi.org/10.3886/E208366) | Post offices and bank branches |
+| Recreational Establishments, 1990-2022 | [10.3886/E209164](https://doi.org/10.3886/E209164) | Gyms, sports facilities, and other recreation venues |
+| Retail Establishments, 1990-2022 | [10.3886/E208682](https://doi.org/10.3886/E208682) | Retail stores across major categories |
+| Social Services, 1990-2022 | [10.3886/E208207](https://doi.org/10.3886/E208207) | Community centers, child/youth/elder services, day care, and counseling services |
+| Training and Vocation Schools, 1990-2022 | [10.3886/ICPSR302343.v1](https://doi.org/10.3886/ICPSR302343.v1) | Vocational and trade schools and training establishments |
 
 ## Citation
 
